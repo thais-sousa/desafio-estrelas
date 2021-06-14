@@ -1,0 +1,60 @@
+body {
+    align-items: center;
+    background-image: url("/img/espaco.jpeg");   
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    margin-bottom: -20px;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+}
+
+#titulo > h2 {
+    color: #E9E7DA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+section:not(#titulo) {
+    display: flex;
+    position: relative;
+}
+
+article {
+    background-color: #1A2930;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    margin: 10px;
+    height: 350px;  
+    width: 25%;
+}
+
+img {
+    border-radius: 10px 10px 0 0;  
+    height: 300px;
+    width: 100%;
+}
+
+article p {
+    color: #F7CE3E;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    margin-top: 8px;
+    text-align: center;
+}
+
+footer p {
+    color:#F7CE3E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 5rem; 
+}
